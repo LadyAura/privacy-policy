@@ -1,198 +1,483 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy – Magic Diamond Painting Art Studio</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      background: #f9f6ff;
-      color: #2d2d2d;
-      padding: 2rem 1rem;
-    }
-
-    .container {
-      max-width: 780px;
-      margin: 0 auto;
-      background: #fff;
-      border-radius: 16px;
-      padding: 2.5rem 2rem;
-      box-shadow: 0 4px 24px rgba(176,106,255,0.10);
-    }
-
-    .logo {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 1.6rem;
-      color: #b06aff;
-      margin-bottom: 0.3rem;
-    }
-
-    .app-name {
-      text-align: center;
-      font-size: 1rem;
-      color: #888;
-      margin-bottom: 0.3rem;
-    }
-
-    .date {
-      text-align: center;
-      font-size: 0.85rem;
-      color: #aaa;
-      margin-bottom: 2rem;
-    }
-
-    h2 {
-      font-size: 1.05rem;
-      color: #b06aff;
-      margin: 1.6rem 0 0.5rem;
-      border-left: 4px solid #b06aff;
-      padding-left: 0.7rem;
-    }
-
-    p {
-      font-size: 0.95rem;
-      line-height: 1.7;
-      color: #444;
-      margin-bottom: 0.5rem;
-    }
-
-    .highlight {
-      background: #f3ecff;
-      border-radius: 10px;
-      padding: 1rem 1.2rem;
-      margin: 1rem 0;
-      font-size: 0.95rem;
-      color: #5a3a8a;
-    }
-
-    .contact {
-      background: #fff8e1;
-      border-radius: 10px;
-      padding: 1rem 1.2rem;
-      margin-top: 1.5rem;
-      font-size: 0.95rem;
-      color: #7a6000;
-    }
-
-    .divider {
-      border: none;
-      border-top: 2px dashed #e8d8ff;
-      margin: 2.5rem 0;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.8rem;
-      color: #bbb;
-      margin-top: 2rem;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        padding: 1.5rem 1.2rem;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – Vib0 Apps</title>
+<meta name="description" content="Privacy Policy covering all apps and games developed by Vib0 (Elisabet Lucas Cercos)">
+<style>
+  :root {
+    --bg: #1a0f2e;
+    --card: rgba(255, 255, 255, 0.06);
+    --border: rgba(215, 184, 255, 0.2);
+    --text: #fdf8ff;
+    --soft: #e0d4f5;
+    --dim: #a99cc8;
+    --lilac: #d4b8ff;
+    --pink: #ffc7e3;
+    --gold: #ffd97a;
+    --mint: #b8f0e3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: linear-gradient(135deg, #1a0f2e 0%, #2a1a4a 50%, #1a0f2e 100%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+    line-height: 1.65;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 820px;
+    margin: 0 auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px 32px;
+    backdrop-filter: blur(10px);
+  }
+  .emoji-hero {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    color: var(--text);
+    font-size: 32px;
+    margin: 0 0 6px;
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+    color: var(--lilac);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .date {
+    text-align: center;
+    color: var(--dim);
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .summary {
+    background: rgba(215, 184, 255, 0.12);
+    border-left: 4px solid var(--lilac);
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    font-size: 15px;
+  }
+  .apps-list {
+    background: rgba(255, 217, 122, 0.08);
+    border: 1px solid rgba(255, 217, 122, 0.25);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: var(--soft);
+  }
+  .apps-list strong { color: var(--gold); }
+  h2 {
+    color: var(--pink);
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    color: var(--lilac);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  p, li { color: var(--soft); }
+  strong { color: var(--text); }
+  em { color: var(--mint); font-style: normal; font-weight: 600; }
+  a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold);
+  }
+  a:hover { opacity: 0.85; }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .note {
+    background: rgba(184, 240, 227, 0.08);
+    border-left: 3px solid var(--mint);
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 48px 0;
+  }
+  .contact {
+    background: rgba(255, 199, 227, 0.1);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    color: var(--dim);
+    font-size: 13px;
+    margin-top: 32px;
+  }
+  code {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: var(--gold);
+  }
+  .lang-switch {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .lang-switch a {
+    margin: 0 10px;
+    padding: 6px 14px;
+    background: rgba(212, 184, 255, 0.1);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo">💎</div>
-    <h1>Privacy Policy</h1>
-    <p class="app-name">Magic Diamond Painting Art Studio</p>
-    <p class="date">Effective date: April 15, 2026</p>
+<div class="container">
 
-    <div class="highlight">
-      ✨ <strong>Summary:</strong> This app processes images locally on your device. It may display ads to non-premium users and offers a one-time premium purchase through Google Play.
-    </div>
+<div class="lang-switch">
+  <a href="#english">🇬🇧 English</a>
+  <a href="#espanol">🇪🇸 Español</a>
+</div>
 
-    <h2>1. Information We Collect</h2>
-    <p>Magic Diamond Painting Art Studio does not require you to create an account or provide personal details in order to use the app.</p>
-    <p>The app may store limited local preferences on your device, such as language settings, free usage counters, or premium status, so the app can function correctly.</p>
+<!-- ════════════════════════════════════════════════════════════════════
+     ENGLISH VERSION
+     ════════════════════════════════════════════════════════════════════ -->
 
-    <h2>2. How the App Works</h2>
-    <p>All image processing in this app is performed <strong>locally on your device</strong>. Images you load into the app are not uploaded by us to our own servers. Your images remain under your control on your device.</p>
+<section id="english">
 
-    <h2>3. Permissions</h2>
-    <p>The app may request access to your device's photo gallery, media, or storage solely to allow you to select, process, and save images. This access is used only for the app’s functionality.</p>
+<div class="emoji-hero">🔮✨</div>
+<h1>Privacy Policy</h1>
+<div class="subtitle">Vib0 — Apps &amp; Games</div>
+<div class="date">Effective date: April 18, 2026 · Last updated: April 18, 2026</div>
 
-    <h2>4. Advertising</h2>
-    <p>The app may show advertisements to users who are not using the premium version. These ads may be provided by third-party advertising partners such as Google AdMob.</p>
-    <p>Advertising providers may collect certain device identifiers, approximate location, usage data, or other technical information in accordance with their own privacy policies in order to deliver and improve ads.</p>
+<div class="summary">
+✨ <strong>Summary:</strong> This Privacy Policy applies to all mobile applications and games developed and published by <strong>Elisabet Lucas Cercos</strong> under the trading name <strong>Vib0</strong> on Google Play and other platforms. Our apps are privacy-first: they work offline whenever possible, store data locally on your device, and do not require accounts. Some apps show ads or offer optional one-time premium purchases.
+</div>
 
-    <h2>5. In-App Purchases</h2>
-    <p>The app offers a one-time premium purchase to unlock premium features. Payments are processed securely by Google Play.</p>
-    <p>We do not collect or store your payment card or billing information. Payment information is handled by Google Play according to its own terms and privacy policy.</p>
+<div class="apps-list">
+📱 <strong>Apps covered by this Policy</strong> (current and future) include, but are not limited to: AuraPrediction, Agenda Lady, Turnos Lady, Magic Diamond Painting Art Studio, Acciones ViBo, ContaViborilla, NomiViborilla, RentaViborilla, Aprendiendo con Viborilla, AURA social, and any other app or game published under the developer name "Vib0", "Lady Vibora", "Viborilla" or any other trading name used by the same data controller.
+</div>
 
-    <h2>6. Third-Party Services</h2>
-    <p>The app may use third-party services such as Google AdMob and Google Play Billing. These services may process data according to their own privacy policies and legal obligations.</p>
+<h2>1. Who We Are (Data Controller)</h2>
+<p>These apps are developed and maintained by <strong>Elisabet Lucas Cercos</strong> (publishing under the trading name <strong>"Vib0"</strong>, also known as "Lady Vibora" / "Viborilla"), an independent indie developer based in Valencia, Spain. Elisabet Lucas Cercos is the data controller for any personal information processed directly through these apps. Contact: <a href="mailto:nuevoelucasc@gmail.com">nuevoelucasc@gmail.com</a>.</p>
 
-    <h2>7. Children's Privacy</h2>
-    <p>This app is designed for a general audience. We do not knowingly collect personal information directly from children. However, third-party services such as advertising providers may process technical data as described in their own policies.</p>
+<h2>2. Our Privacy Principles</h2>
+<ul>
+  <li><strong>No accounts required.</strong> None of our apps require you to register or log in.</li>
+  <li><strong>Local-first.</strong> Your data (preferences, content, progress, history) is stored on your device, not on our servers. We do not operate any servers.</li>
+  <li><strong>Minimum necessary.</strong> We only request permissions that are strictly needed for the app to work.</li>
+  <li><strong>No selling.</strong> We do not sell, rent or trade your personal information to anyone.</li>
+  <li><strong>Offline-capable.</strong> Most features work without an internet connection. Internet is only used for ads (where applicable) and in-app purchases.</li>
+</ul>
 
-    <h2>8. Data Security</h2>
-    <p>We take reasonable steps to keep the app safe and to minimize data handling. Most image processing stays on your device, and we do not operate our own image-storage servers for the app.</p>
+<h2>3. What Data We Collect</h2>
 
-    <h2>9. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated effective date.</p>
+<h3>3.1 Data you enter into the app</h3>
+<p>Depending on the specific app, you may voluntarily enter data such as:</p>
+<ul>
+  <li>A display name or nickname</li>
+  <li>App-specific content you create: notes, tasks, calendar events, mood entries, shift schedules, diamond painting patterns, stock holdings, accounting entries, payroll/tax calculations, vocabulary progress, etc.</li>
+  <li>Preferences (theme, language, settings)</li>
+  <li>Images or photos you load into the app (only for apps with image-editing features such as Magic Diamond Painting)</li>
+</ul>
+<p><strong>This data is stored only on your device</strong> (using Android local storage, AsyncStorage, SQLite, or localStorage) and never transmitted to our servers. You can delete it at any time by clearing the app's data from Android Settings or by uninstalling the app.</p>
 
-    <div class="contact">
-      📩 <strong>Contact:</strong> If you have any questions about this Privacy Policy, you can contact us at: <strong>nuevoelucasc@gmail.com</strong>
-    </div>
+<h3>3.2 Data collected automatically by third-party services</h3>
+<p>For apps that display ads or process payments, certain third-party services automatically collect data as described in sections 5 and 6.</p>
 
-    <hr class="divider">
+<h3>3.3 Data we do NOT collect</h3>
+<p>We do <strong>not</strong> collect: your email address, phone number, real name, physical address, contacts, SMS, call logs, precise location, health records, banking credentials, or biometric data. We do not use analytics SDKs that track personal usage (such as Firebase Analytics, Facebook SDK, Crashlytics, etc.) unless explicitly stated for a specific app.</p>
 
-    <h1 style="color:#ff6eb4;">Política de Privacidad</h1>
-    <p class="app-name">Magic Diamond Painting Art Studio</p>
-    <p class="date">Fecha de vigencia: 15 de abril de 2026</p>
+<h2>4. Permissions Explained</h2>
+<p>Individual apps may request some or all of the following Android permissions. Each permission is only used for its stated purpose within that specific app:</p>
+<ul>
+  <li><strong>INTERNET &amp; ACCESS_NETWORK_STATE</strong> — required for apps that show ads or process purchases, and to verify network availability.</li>
+  <li><strong>VIBRATE</strong> — subtle haptic feedback on button taps.</li>
+  <li><strong>BILLING / com.android.vending.BILLING</strong> — used by apps that offer premium in-app purchases through Google Play.</li>
+  <li><strong>AD_ID / com.google.android.gms.permission.AD_ID</strong> — used by apps that show ads, to read the resettable Android Advertising ID.</li>
+  <li><strong>READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</strong> — only in apps that need to load images you select (e.g. Magic Diamond Painting). We only access images you explicitly pick through the system picker; we do not scan your gallery.</li>
+  <li><strong>WRITE_EXTERNAL_STORAGE</strong> — only when an app needs to save a file (PDF, image, export) to your device's storage.</li>
+  <li><strong>CAMERA</strong> — only in apps that offer camera capture. We do not record in the background.</li>
+  <li><strong>USE_BIOMETRIC / USE_FINGERPRINT</strong> — only in apps offering optional biometric lock (e.g. Agenda Lady diary lock). Authentication happens locally; we never see your biometric data.</li>
+  <li><strong>POST_NOTIFICATIONS</strong> — only in apps that offer local reminders or alarms (e.g. Agenda Lady tasks, Turnos Lady shifts). Notifications are scheduled locally; we do not send push notifications from a server.</li>
+</ul>
+<div class="note">
+💡 Some apps may not require any network permissions at all and work 100% offline.
+</div>
 
-    <div class="highlight" style="background:#fff0f8;color:#8a3a6a;">
-      ✨ <strong>Resumen:</strong> Esta app procesa las imágenes localmente en tu dispositivo. También puede mostrar anuncios a usuarios no premium y ofrece una compra única premium a través de Google Play.
-    </div>
+<h2>5. Advertising (Google AdMob)</h2>
+<p>Some of our apps show advertisements to non-premium users, served exclusively by <strong>Google AdMob</strong> (Google LLC). Currently we use interstitial ads (full-screen between actions) and do not display banner ads.</p>
+<p>To serve and measure ads, Google AdMob may automatically collect and process:</p>
+<ul>
+  <li>Android <strong>Advertising ID</strong> (a unique, resettable identifier)</li>
+  <li>IP address and approximate (city-level) location derived from it</li>
+  <li>Device information (model, OS version, language, screen size)</li>
+  <li>Ad interaction data (impressions, clicks, time viewed)</li>
+  <li>Non-personal crash and diagnostic data</li>
+</ul>
+<p>This data is used for ad delivery, ad measurement, frequency capping, analytics and fraud prevention.</p>
+<p>You can reset or delete your Android Advertising ID at any time in <em>Android Settings → Google → Ads</em>, or opt out of personalized ads entirely.</p>
+<p>For full details, see:</p>
+<ul>
+  <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information from partner sites and apps</a></li>
+  <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob Policies</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+</ul>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">1. Información que recopilamos</h2>
-    <p>Magic Diamond Painting Art Studio no requiere que crees una cuenta ni que proporciones datos personales para utilizar la aplicación.</p>
-    <p>La app puede guardar en tu dispositivo algunas preferencias limitadas, como el idioma, el contador de uso gratuito o el estado premium, para que funcione correctamente.</p>
+<h3>5.1 Personalized vs. non-personalized ads (EEA, UK, Switzerland)</h3>
+<p>If you are located in the European Economic Area, the United Kingdom or Switzerland, you will be asked for your consent before personalized ads are served, through Google's User Messaging Platform (UMP) consent dialog. You can withdraw consent at any time from the app (where applicable) or by resetting your Advertising ID.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">2. Cómo funciona la app</h2>
-    <p>Todo el procesamiento de imágenes se realiza <strong>localmente en tu dispositivo</strong>. Las imágenes que cargues en la app no se suben a nuestros propios servidores. Tus imágenes permanecen bajo tu control en tu dispositivo.</p>
+<h2>6. In-App Purchases (Google Play Billing)</h2>
+<p>Some of our apps offer optional <strong>one-time premium purchases</strong> (e.g. to remove ads or unlock unlimited features). We do not offer recurring subscriptions.</p>
+<p>All payments are processed entirely by <strong>Google Play Billing</strong>. We never see, collect or store your:</p>
+<ul>
+  <li>Payment card number, expiration or CVV</li>
+  <li>Billing address</li>
+  <li>Google account email (beyond what Google tells us is needed to verify the purchase)</li>
+</ul>
+<p>We only receive a confirmation token from Google Play that a purchase was successful, which we use to activate premium features locally on your device. For Google Play's privacy practices, see <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Google Payments Privacy Notice</a>.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">3. Permisos</h2>
-    <p>La app puede solicitar acceso a tu galería, archivos multimedia o almacenamiento únicamente para permitirte seleccionar, procesar y guardar imágenes. Este acceso se utiliza solo para el funcionamiento de la aplicación.</p>
+<h2>7. Third-Party Services</h2>
+<p>Depending on the specific app, the following third-party services may be used, each governed by its own privacy policy:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AdMob / Google Mobile Ads SDK</a> — for advertising.</li>
+  <li><a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Google Play Billing</a> — for in-app purchases.</li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Fonts</a> — some apps load fonts from <code>fonts.googleapis.com</code>; Google may log your IP.</li>
+  <li><a href="https://www.tradingview.com/policies/privacy-policy/" target="_blank" rel="noopener">TradingView widgets</a> — only in Acciones ViBo (financial charting widgets).</li>
+</ul>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">4. Publicidad</h2>
-    <p>La app puede mostrar anuncios a los usuarios que no dispongan de la versión premium. Estos anuncios pueden ser proporcionados por servicios de terceros como Google AdMob.</p>
-    <p>Los proveedores de publicidad pueden recopilar determinados identificadores del dispositivo, ubicación aproximada, datos de uso u otra información técnica de acuerdo con sus propias políticas de privacidad para mostrar y mejorar los anuncios.</p>
+<h2>8. Children's Privacy</h2>
+<p>Our apps are intended for a <strong>general audience aged 13 and above</strong>. We do not knowingly collect personal information from children under 13 (or under 16 in the EEA where applicable). Our apps are not designed for or directed at children. If you believe a child has used one of our apps and provided personal information, contact us to request deletion.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">5. Compras dentro de la aplicación</h2>
-    <p>La app ofrece una compra única para desbloquear funciones premium. Los pagos se procesan de forma segura a través de Google Play.</p>
-    <p>Nosotros no recopilamos ni almacenamos los datos de tu tarjeta o facturación. Esa información es gestionada por Google Play según sus propios términos y política de privacidad.</p>
+<h2>9. Your Rights (GDPR, UK GDPR, LOPDGDD Spain)</h2>
+<p>If you are in the European Economic Area, the United Kingdom, Spain, or any jurisdiction with similar privacy laws, you have the following rights regarding your personal data:</p>
+<ul>
+  <li><strong>Right of access</strong> — know what data we hold about you.</li>
+  <li><strong>Right of rectification</strong> — correct inaccurate data.</li>
+  <li><strong>Right of erasure (right to be forgotten)</strong> — delete your data.</li>
+  <li><strong>Right to restrict processing</strong>.</li>
+  <li><strong>Right to object to processing</strong> (including direct marketing).</li>
+  <li><strong>Right to data portability</strong>.</li>
+  <li><strong>Right to withdraw consent</strong> at any time for personalized ads.</li>
+  <li><strong>Right to lodge a complaint</strong> with your local Data Protection Authority. In Spain: <a href="https://www.aepd.es/" target="_blank" rel="noopener">Agencia Española de Protección de Datos (AEPD)</a>.</li>
+</ul>
+<p>Since we do not operate servers and do not collect personal data ourselves, most of your data (names, preferences, content) can be deleted immediately by clearing app data or uninstalling the app. For data handled by Google (Advertising ID, payment info), use the controls in your Google Account or contact Google directly.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">6. Servicios de terceros</h2>
-    <p>La app puede utilizar servicios de terceros como Google AdMob y Google Play Billing. Estos servicios pueden procesar datos conforme a sus propias políticas de privacidad y obligaciones legales.</p>
+<h2>10. California Residents (CCPA / CPRA)</h2>
+<p>If you are a California resident, you have the right to know what personal information is collected, the right to deletion, the right to correct inaccurate data, and the right to opt out of the sale or sharing of personal information. <strong>We do not sell or share your personal information.</strong> Ad-related data practices are governed by Google AdMob's own CCPA disclosures.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">7. Privacidad de menores</h2>
-    <p>Esta app está dirigida al público general. No recopilamos conscientemente información personal directamente de menores. Sin embargo, servicios de terceros como los proveedores de publicidad pueden procesar datos técnicos según sus propias políticas.</p>
+<h2>11. Data Security</h2>
+<p>Since we do not store your data on our servers (we don't have any), data security within the app relies on:</p>
+<ul>
+  <li>Android's built-in app sandboxing — only the app itself can access its local data.</li>
+  <li>TLS (HTTPS) encryption for communications with Google AdMob and Google Play.</li>
+  <li>For apps offering optional passcode/biometric lock: your data is further protected locally.</li>
+</ul>
+<p>No method is 100% secure, but we minimize risk by minimizing data collection.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">8. Seguridad de los datos</h2>
-    <p>Tomamos medidas razonables para mantener la app segura y minimizar el tratamiento de datos. La mayor parte del procesamiento de imágenes permanece en tu dispositivo y no utilizamos servidores propios para almacenar tus imágenes.</p>
+<h2>12. Data Retention</h2>
+<p>All data stored locally on your device is retained until you choose to delete it (through in-app controls, by clearing app data in Android settings, or by uninstalling the app). Purchase receipts held by Google Play are retained according to Google's own retention policy.</p>
 
-    <h2 style="color:#ff6eb4;border-color:#ff6eb4;">9. Cambios en esta política</h2>
-    <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Cualquier cambio se reflejará en esta página con una fecha de vigencia actualizada.</p>
+<h2>13. International Transfers</h2>
+<p>Although we do not transfer data ourselves, third-party services such as Google AdMob and Google Play process data on servers worldwide, including outside the EEA. Google provides appropriate safeguards (EU Standard Contractual Clauses and similar mechanisms) as described in Google's own Privacy Policy.</p>
 
-    <div class="contact">
-      📩 <strong>Contacto:</strong> Si tienes alguna pregunta sobre esta política de privacidad, puedes escribirnos a: <strong>nuevoelucasc@gmail.com</strong>
-    </div>
+<h2>14. Changes to This Policy</h2>
+<p>We may update this Privacy Policy occasionally to reflect new apps, new features, or legal requirements. The "Last updated" date at the top will always reflect the most recent version. Material changes will be communicated in-app where appropriate. Continued use of any app after such changes constitutes acceptance.</p>
 
-    <footer>© 2026 Magic Diamond Painting Art Studio. All rights reserved.</footer>
-  </div>
+<h2>15. App-Specific Additions</h2>
+<p>If a specific app collects data or uses permissions not covered by this general policy (for example, an app that, in the future, synchronizes with a cloud service or uses third-party analytics), an app-specific appendix will be published and referenced here:</p>
+<ul>
+  <li><em>No app-specific additions at this time.</em></li>
+</ul>
+
+<div class="contact">
+📩 <strong>Contact:</strong> For any questions about this Privacy Policy, to exercise your data rights, or to report a concern, email us at: <a href="mailto:nuevoelucasc@gmail.com">nuevoelucasc@gmail.com</a>
+</div>
+
+</section>
+
+<div class="divider"></div>
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SPANISH VERSION
+     ════════════════════════════════════════════════════════════════════ -->
+
+<section id="espanol">
+
+<div class="emoji-hero">🔮✨</div>
+<h1>Política de Privacidad</h1>
+<div class="subtitle">Vib0 — Apps y Juegos</div>
+<div class="date">Fecha de vigencia: 18 de abril de 2026 · Última actualización: 18 de abril de 2026</div>
+
+<div class="summary">
+✨ <strong>Resumen:</strong> Esta Política de Privacidad se aplica a todas las aplicaciones móviles y juegos desarrollados y publicados por <strong>Elisabet Lucas Cercos</strong> bajo el nombre comercial <strong>Vib0</strong> en Google Play y otras plataformas. Nuestras apps priorizan la privacidad: funcionan sin conexión siempre que es posible, almacenan los datos localmente en tu dispositivo y no requieren cuentas. Algunas apps muestran anuncios u ofrecen compras premium únicas opcionales.
+</div>
+
+<div class="apps-list">
+📱 <strong>Apps cubiertas por esta Política</strong> (presentes y futuras) incluyen, pero no se limitan a: AuraPrediction, Agenda Lady, Turnos Lady, Magic Diamond Painting Art Studio, Acciones ViBo, ContaViborilla, NomiViborilla, RentaViborilla, Aprendiendo con Viborilla, AURA social, y cualquier otra app o juego publicada bajo el nombre de desarrolladora "Vib0", "Lady Vibora", "Viborilla" o cualquier otro nombre comercial usado por el mismo responsable del tratamiento.
+</div>
+
+<h2>1. Quiénes somos (Responsable del tratamiento)</h2>
+<p>Estas apps están desarrolladas y mantenidas por <strong>Elisabet Lucas Cercos</strong> (publica bajo el nombre comercial <strong>"Vib0"</strong>, también conocida como "Lady Vibora" / "Viborilla"), desarrolladora indie independiente con sede en Valencia (España). Elisabet Lucas Cercos es la responsable del tratamiento de cualquier dato personal procesado directamente a través de estas apps. Contacto: <a href="mailto:nuevoelucasc@gmail.com">nuevoelucasc@gmail.com</a>.</p>
+
+<h2>2. Nuestros principios de privacidad</h2>
+<ul>
+  <li><strong>Sin cuentas.</strong> Ninguna de nuestras apps requiere registro o inicio de sesión.</li>
+  <li><strong>Local primero.</strong> Tus datos (preferencias, contenido, progreso, historial) se guardan en tu dispositivo, no en nuestros servidores. No tenemos servidores.</li>
+  <li><strong>Mínimo necesario.</strong> Solo solicitamos los permisos estrictamente necesarios para que la app funcione.</li>
+  <li><strong>Nunca vendemos.</strong> No vendemos, alquilamos ni intercambiamos tu información personal con nadie.</li>
+  <li><strong>Funciona offline.</strong> La mayoría de funciones operan sin conexión. Internet solo se usa para anuncios (cuando aplica) y compras dentro de la app.</li>
+</ul>
+
+<h2>3. Qué datos recopilamos</h2>
+
+<h3>3.1 Datos que introduces en la app</h3>
+<p>Según la app concreta, puedes introducir voluntariamente datos como:</p>
+<ul>
+  <li>Un nombre de usuario o apodo</li>
+  <li>Contenido específico de la app: notas, tareas, eventos de calendario, registros de ánimo, turnos de trabajo, patrones de diamond painting, acciones en cartera, asientos contables, cálculos de nómina/IRPF, progreso de vocabulario, etc.</li>
+  <li>Preferencias (tema, idioma, ajustes)</li>
+  <li>Imágenes o fotos que cargues en la app (solo en apps con edición de imágenes como Magic Diamond Painting)</li>
+</ul>
+<p><strong>Estos datos se almacenan únicamente en tu dispositivo</strong> (mediante almacenamiento local de Android, AsyncStorage, SQLite o localStorage) y nunca se transmiten a nuestros servidores. Puedes eliminarlos en cualquier momento borrando los datos de la app desde Ajustes de Android o desinstalándola.</p>
+
+<h3>3.2 Datos recopilados automáticamente por servicios de terceros</h3>
+<p>En apps que muestran anuncios o procesan pagos, determinados servicios de terceros recopilan datos automáticamente según se describe en las secciones 5 y 6.</p>
+
+<h3>3.3 Datos que NO recopilamos</h3>
+<p>No recopilamos: dirección de correo, teléfono, nombre real, domicilio, contactos, SMS, registros de llamadas, ubicación precisa, historiales médicos, credenciales bancarias ni datos biométricos. No usamos SDK de analítica que rastreen el uso personal (como Firebase Analytics, Facebook SDK, Crashlytics, etc.) salvo que se indique expresamente para una app concreta.</p>
+
+<h2>4. Permisos explicados</h2>
+<p>Cada app individual puede solicitar algunos o todos los siguientes permisos de Android. Cada permiso se usa exclusivamente para el fin indicado dentro de esa app:</p>
+<ul>
+  <li><strong>INTERNET y ACCESS_NETWORK_STATE</strong> — necesarios para apps con anuncios o compras, y para verificar la conexión.</li>
+  <li><strong>VIBRATE</strong> — vibración suave al pulsar botones.</li>
+  <li><strong>BILLING</strong> — usado por apps que ofrecen compras premium a través de Google Play.</li>
+  <li><strong>AD_ID</strong> — usado por apps con anuncios para leer el Advertising ID de Android (reseteable por el usuario).</li>
+  <li><strong>READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</strong> — solo en apps que necesitan cargar imágenes que tú seleccionas (ej. Magic Diamond Painting). Solo accedemos a las imágenes que tú eliges explícitamente; no escaneamos tu galería.</li>
+  <li><strong>WRITE_EXTERNAL_STORAGE</strong> — solo cuando una app necesita guardar un archivo (PDF, imagen, exportación) en tu dispositivo.</li>
+  <li><strong>CAMERA</strong> — solo en apps con captura de cámara. Nunca grabamos en segundo plano.</li>
+  <li><strong>USE_BIOMETRIC / USE_FINGERPRINT</strong> — solo en apps con bloqueo biométrico opcional (ej. diario de Agenda Lady). La autenticación ocurre localmente; nunca vemos tus datos biométricos.</li>
+  <li><strong>POST_NOTIFICATIONS</strong> — solo en apps que ofrecen recordatorios o alarmas locales (ej. tareas de Agenda Lady, turnos de Turnos Lady). Las notificaciones se programan localmente; no enviamos notificaciones push desde un servidor.</li>
+</ul>
+<div class="note">
+💡 Algunas apps pueden no requerir ningún permiso de red y funcionar 100% offline.
+</div>
+
+<h2>5. Publicidad (Google AdMob)</h2>
+<p>Algunas de nuestras apps muestran anuncios a usuarios no premium, servidos exclusivamente por <strong>Google AdMob</strong> (Google LLC). Actualmente usamos anuncios intersticiales (pantalla completa entre acciones) y no mostramos banners.</p>
+<p>Para mostrar y medir anuncios, Google AdMob puede recopilar automáticamente:</p>
+<ul>
+  <li><strong>Advertising ID</strong> de Android (identificador único y reseteable)</li>
+  <li>Dirección IP y ubicación aproximada (a nivel de ciudad) derivada de ella</li>
+  <li>Información del dispositivo (modelo, versión del SO, idioma, tamaño de pantalla)</li>
+  <li>Datos de interacción con el anuncio (impresiones, clics, tiempo visto)</li>
+  <li>Datos no personales de diagnóstico y fallos</li>
+</ul>
+<p>Estos datos se usan para entrega de anuncios, medición, limitación de frecuencia, analíticas y prevención de fraude.</p>
+<p>Puedes restablecer o eliminar tu Advertising ID en cualquier momento desde <em>Ajustes de Android → Google → Anuncios</em>, u optar por no recibir anuncios personalizados.</p>
+<p>Más detalles:</p>
+<ul>
+  <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Cómo Google utiliza la información de sitios y apps asociados</a></li>
+  <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Políticas de Google AdMob</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad de Google</a></li>
+</ul>
+
+<h3>5.1 Anuncios personalizados vs. no personalizados (EEE, Reino Unido, Suiza)</h3>
+<p>Si te encuentras en el Espacio Económico Europeo, Reino Unido o Suiza, se te pedirá consentimiento antes de mostrar anuncios personalizados, mediante el diálogo de consentimiento de la User Messaging Platform (UMP) de Google. Puedes retirar el consentimiento cuando quieras desde la app (cuando aplique) o reseteando tu Advertising ID.</p>
+
+<h2>6. Compras dentro de la app (Google Play Billing)</h2>
+<p>Algunas de nuestras apps ofrecen <strong>compras premium únicas opcionales</strong> (p. ej. para eliminar anuncios o desbloquear funciones ilimitadas). No ofrecemos suscripciones recurrentes.</p>
+<p>Todos los pagos se procesan íntegramente por <strong>Google Play Billing</strong>. Nunca vemos, recopilamos ni almacenamos:</p>
+<ul>
+  <li>Número de tarjeta, caducidad o CVV</li>
+  <li>Dirección de facturación</li>
+  <li>Email de tu cuenta de Google (más allá de lo estrictamente necesario para verificar la compra)</li>
+</ul>
+<p>Solo recibimos de Google Play un token de confirmación de que la compra fue exitosa, que usamos para activar las funciones premium localmente en tu dispositivo. Para las prácticas de privacidad de Google Play, consulta el <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Aviso de privacidad de Google Payments</a>.</p>
+
+<h2>7. Servicios de terceros</h2>
+<p>Según la app, pueden usarse los siguientes servicios de terceros, cada uno regido por su propia política de privacidad:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AdMob / Google Mobile Ads SDK</a> — publicidad.</li>
+  <li><a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice" target="_blank" rel="noopener">Google Play Billing</a> — compras dentro de la app.</li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Fonts</a> — algunas apps cargan fuentes desde <code>fonts.googleapis.com</code>; Google puede registrar tu IP.</li>
+  <li><a href="https://www.tradingview.com/policies/privacy-policy/" target="_blank" rel="noopener">TradingView widgets</a> — solo en Acciones ViBo (widgets de gráficos financieros).</li>
+</ul>
+
+<h2>8. Privacidad de menores</h2>
+<p>Nuestras apps están dirigidas a <strong>público general a partir de 13 años</strong>. No recopilamos conscientemente información personal de menores de 13 años (o de 16 en el EEE cuando aplique). Nuestras apps no están diseñadas ni dirigidas a menores. Si crees que un menor ha usado una de nuestras apps y ha facilitado información personal, contáctanos para eliminarla.</p>
+
+<h2>9. Tus derechos (RGPD, UK GDPR, LOPDGDD)</h2>
+<p>Si te encuentras en el Espacio Económico Europeo, Reino Unido, España o cualquier jurisdicción con leyes similares, tienes los siguientes derechos:</p>
+<ul>
+  <li><strong>Derecho de acceso</strong> — saber qué datos tenemos sobre ti.</li>
+  <li><strong>Derecho de rectificación</strong> — corregir datos inexactos.</li>
+  <li><strong>Derecho de supresión (al olvido)</strong> — borrar tus datos.</li>
+  <li><strong>Derecho a limitar el tratamiento</strong>.</li>
+  <li><strong>Derecho de oposición</strong> al tratamiento (incluyendo publicidad directa).</li>
+  <li><strong>Derecho a la portabilidad</strong> de los datos.</li>
+  <li><strong>Derecho a retirar el consentimiento</strong> para anuncios personalizados en cualquier momento.</li>
+  <li><strong>Derecho a presentar una reclamación</strong> ante la autoridad de control. En España: <a href="https://www.aepd.es/" target="_blank" rel="noopener">Agencia Española de Protección de Datos (AEPD)</a>.</li>
+</ul>
+<p>Como no operamos servidores y no recopilamos datos personales directamente, la mayoría de tus datos (nombres, preferencias, contenido) se pueden eliminar al instante borrando los datos de la app o desinstalándola. Para datos gestionados por Google (Advertising ID, información de pago), utiliza los controles de tu cuenta Google o contacta con Google directamente.</p>
+
+<h2>10. Residentes de California (CCPA / CPRA)</h2>
+<p>Los residentes de California tienen derecho a saber qué información personal se recopila, derecho a la eliminación, derecho a corregir datos inexactos y derecho a optar por no participar en la venta o compartición de información personal. <strong>No vendemos ni compartimos tu información personal.</strong> Las prácticas de datos relacionadas con la publicidad se rigen por las propias divulgaciones CCPA de Google AdMob.</p>
+
+<h2>11. Seguridad de los datos</h2>
+<p>Como no almacenamos tus datos en nuestros servidores (no tenemos), la seguridad de los datos dentro de la app se basa en:</p>
+<ul>
+  <li>El sandboxing de apps de Android — solo la propia app puede acceder a sus datos locales.</li>
+  <li>Cifrado TLS (HTTPS) en las comunicaciones con Google AdMob y Google Play.</li>
+  <li>En apps con bloqueo opcional por contraseña/biometría: tus datos están protegidos adicionalmente de forma local.</li>
+</ul>
+<p>Ningún método es 100% seguro, pero minimizamos el riesgo minimizando la recopilación de datos.</p>
+
+<h2>12. Conservación de datos</h2>
+<p>Todos los datos almacenados localmente en tu dispositivo se conservan hasta que decidas eliminarlos (mediante controles dentro de la app, borrando los datos desde los ajustes de Android o desinstalando la app). Los recibos de compra que conserva Google Play se retienen según la política de retención propia de Google.</p>
+
+<h2>13. Transferencias internacionales</h2>
+<p>Aunque nosotros no transferimos datos, servicios de terceros como Google AdMob y Google Play procesan datos en servidores de todo el mundo, incluidos algunos fuera del EEE. Google proporciona las garantías adecuadas (Cláusulas Contractuales Tipo de la UE y mecanismos similares) según describe en su propia Política de Privacidad.</p>
+
+<h2>14. Cambios en esta política</h2>
+<p>Podemos actualizar esta Política de Privacidad ocasionalmente para reflejar nuevas apps, nuevas funcionalidades o requisitos legales. La fecha de "Última actualización" arriba reflejará siempre la versión más reciente. Los cambios importantes se comunicarán dentro de las apps cuando corresponda. El uso continuado de cualquier app tras los cambios constituye aceptación.</p>
+
+<h2>15. Apartados específicos por app</h2>
+<p>Si una app concreta recopila datos o usa permisos no cubiertos por esta política general (por ejemplo, una app que en el futuro sincronice con un servicio en la nube o use analíticas de terceros), se publicará un apéndice específico y se enlazará aquí:</p>
+<ul>
+  <li><em>No hay apartados específicos en este momento.</em></li>
+</ul>
+
+<div class="contact">
+📩 <strong>Contacto:</strong> Para cualquier pregunta sobre esta Política de Privacidad, ejercer tus derechos, o reportar una preocupación, escríbenos a: <a href="mailto:nuevoelucasc@gmail.com">nuevoelucasc@gmail.com</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 Elisabet Lucas Cercos · Vib0. All rights reserved.<br>
+Esta política aplica a todas las apps desarrolladas bajo Vib0 / This policy applies to all apps published under Vib0.
+</footer>
+
+</div>
 </body>
 </html>
